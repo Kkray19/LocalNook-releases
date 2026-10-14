@@ -1,47 +1,55 @@
-# LocalNook releases
+# Oriel releases
 
-Downloads for **LocalNook**, a native macOS app that puts what's playing, your
-day and your tools in the notch. This repository holds only the release
-downloads and their notes.
+Downloads for **Oriel**, a free native macOS app that puts what's playing, your day and your tools in the
+notch. Oriel was formerly called LocalNook; some of its files and requests still use that name.
+
+This repository holds only the release downloads and their notes. Oriel's source code is not published here.
+
+## Download
 
 Each release has two files:
 
-- `LocalNook-<version>.dmg`: open it and drag LocalNook to Applications.
-- `LocalNook-<version>.zip`: the same app, used by LocalNook's built-in
-  updater.
+- `LocalNook-<version>.dmg`: open it and drag Oriel to Applications.
+- `LocalNook-<version>.zip`: the same app, used by Oriel's built-in updater.
+
+The file names keep the old name because the updater looks for them.
+
+## Free, under the Oriel License Agreement
+
+Oriel is free: there is no price, subscription or paid tier. You use it under the Oriel License Agreement,
+which you accept, together with the Privacy Policy, the first time you open Oriel. Both documents are also in
+the disk image, beside the app.
 
 ## Updates
 
-With "Check for updates automatically" on (Settings ▸ About), LocalNook asks
-this repository once a day whether a newer release exists. When one does, it
-tells you, and it downloads and installs it only when you press Install. It
-installs only a copy signed with the same certificate as the one you are
-running.
+If the update check is on (Settings ▸ About), Oriel asks this repository once a day whether a newer release
+exists. It tells you when one does, and downloads one only when you press Install and Relaunch. It installs
+only a copy signed with the same certificate as the one you are running.
+
+## Privacy
+
+This version of Oriel collects no usage data. The Privacy Policy, which is also in the disk image, says what
+each online feature sends and when.
 
 ## Opening it the first time
 
-LocalNook is not yet notarized by Apple, so macOS blocks the first launch.
-Open System Settings ▸ Privacy & Security, scroll down, and click
-**Open Anyway** next to LocalNook.
+Oriel is not yet notarized by Apple, so macOS blocks the first launch. Open System Settings ▸ Privacy &
+Security, scroll down, and click **Open Anyway** next to Oriel.
 
 ## Requirements
 
 macOS 15 or later, on a Mac with Apple silicon.
 
-## License
+## Questions and privacy requests
 
-From version 0.5.0, LocalNook is proprietary software. What you may do with
-your copy is in its `LICENSE` file, inside the app (Settings ▸ About ▸
-License ▸ Open LICENSE) and on the disk image. Versions 0.2.0 to 0.4.8 were
-released under the GNU General Public License v3.0 or later, and stay under
-it for everyone who has them.
+Email oriel.nook@gmail.com about the License Agreement, the Privacy Policy or your personal information. Please
+don't send passwords, keys or other sign-ins.
 
-## Source code of the fan helper
+## Source code
 
-The root fan helper inside LocalNook (`com.localnook.app.fan-helper`) is a
-separate program, free software under the GNU General Public License v3.0 or
-later. Where to get its complete corresponding source for the version you
-have is in `LocalNook-Source-Offer.txt`, inside the app (Settings ▸ About ▸
-License ▸ Source code offer) and at the top of the disk image, and in that
-version's release notes. Other open-source parts keep their own licences;
-their notices are in `THIRD_PARTY_LICENSES.md` inside the app.
+This repository does not contain Oriel's source code. Parts of Oriel are open-source software under their own
+licences. The fan helper (`com.localnook.app.fan-helper`) is under the GNU General Public License v3.0 or
+later, and its complete source is at https://github.com/Kkray19/LocalNook-fan-helper-source.
+`LocalNook-Source-Offer.txt`, in the app and in the disk image, says where to get the source of each
+open-source part and what each licence requires. LocalNook versions 0.2.0 to 0.4.8 were under the GNU General
+Public License, and stay under it for everyone who has them.
